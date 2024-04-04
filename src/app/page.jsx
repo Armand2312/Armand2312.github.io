@@ -1,3 +1,4 @@
+import AboutPage from "@/components/AboutPage";
 import Main from "@/components/Main";
 import ParticleContainer from "@/components/particles/ParticleContainer";
 
@@ -8,13 +9,12 @@ export default function Home() {
       {/* Home section */}
       <section className="bg-blue-900" id="home">
         <ParticleContainer />
-          <Main />
-        
+        <Main />
       </section>
 
       {/* About section */}
-      <section id="about">
-
+      <section className="bg-gray-200" id="about">
+        <AboutPage />
       </section>
 
       {/* Portfolio section */}

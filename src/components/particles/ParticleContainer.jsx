@@ -23,21 +23,22 @@ export default function ParticleContainer() {
     }, []);
   
     const particlesLoaded = (container) => {
-      console.log(container);
+      //console.log(container);
     };
   
     const options = useMemo(
       () => ({
+        fullScreen: { enable: false },
         background: {
           color: {
-            value: "#0d47a1",
+            value: "blue",
           },
         },
         fpsLimit: 120,
         interactivity: {
           events: {
             onClick: {
-              enable: true,
+              enable: false,
               mode: "push",
             },
             onHover: {
@@ -80,10 +81,10 @@ export default function ParticleContainer() {
             density: {
               enable: true,
             },
-            value: 180,
+            value: 80,
           },
           opacity: {
-            value: 0,
+            value: 1,
           },
           shape: {
             type: "circle",
@@ -99,11 +100,15 @@ export default function ParticleContainer() {
   
     if (init) {
       return (
-        <Particles
+        <div className="absolute min-h-screen h-full">
+          <Particles
+          className="h-screen w-screen"
           id="tsparticles"
           particlesLoaded={particlesLoaded}
           options={options}
         />
+        </div>
+        
       );
     }
   
