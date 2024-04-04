@@ -8,12 +8,15 @@ export default function Home() {
     <>
       {/* Home section */}
       <section className="bg-blue-900" id="home">
+        {/* Particle Animation */}
         <ParticleContainer />
+        
+        {/* Page Content */}
         <Main />
       </section>
 
       {/* About section */}
-      <section className="bg-gray-200" id="about">
+      <section className="" id="about">
         <AboutPage />
       </section>
 
