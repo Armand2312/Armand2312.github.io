@@ -6,3 +6,6 @@
 .animate-spin {
     animation: spin 5s linear infinite;
 }
+html {
+    scroll-padding-top: 60px; /* Adjust based on your navbar's height */
+  }

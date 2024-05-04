@@ -1,4 +1,5 @@
 import AboutPage from "@/components/AboutPage";
+import CVPage from "@/components/CVPage";
 import Main from "@/components/Main";
 import ParticleContainer from "@/components/particles/ParticleContainer";
 
@@ -10,7 +11,7 @@ export default function Home() {
       <section className="bg-blue-900" id="home">
         {/* Particle Animation */}
         <ParticleContainer />
-        
+
         {/* Page Content */}
         <Main />
       </section>
@@ -21,7 +22,12 @@ export default function Home() {
       </section>
 
       {/* Portfolio section */}
-      <section id="portfolio">
+      {/* <section className="bg-gray-200" id="cv">
+        <CVPage />
+      </section> */}
+
+      {/* Portfolio section */}
+      <section className="bg-gray-100" id="portfolio">
 
       </section>
 

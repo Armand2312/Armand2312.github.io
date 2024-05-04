@@ -7,7 +7,7 @@ export default function Header() {
             <nav className="md:w-2/3 lg:w-1/2 flex flex-row justify-between font-semibold">
                 <Link className="hover:text-blue-300 transition-all" href={"/"}>Home</Link>
                 <Link className="hover:text-blue-300 transition-all scroll-smooth" href={"#about"}>About</Link>
-                <Link className="hover:text-blue-300 transition-all" href={"/"}>CV</Link>
+                {/* <Link className="hover:text-blue-300 transition-all" href={"/"}>CV</Link> */}
                 <Link className="hover:text-blue-300 transition-all" href={"/"}>Projects</Link>
                 <Link className="hover:text-blue-300 transition-all" href={"/"}>Contact</Link>
             </nav>
