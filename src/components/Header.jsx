@@ -8,8 +8,8 @@ export default function Header() {
                 <Link className="hover:text-blue-300 transition-all" href={"/"}>Home</Link>
                 <Link className="hover:text-blue-300 transition-all scroll-smooth" href={"#about"}>About</Link>
                 {/* <Link className="hover:text-blue-300 transition-all" href={"/"}>CV</Link> */}
-                <Link className="hover:text-blue-300 transition-all" href={"/"}>Projects</Link>
-                <Link className="hover:text-blue-300 transition-all" href={"/"}>Contact</Link>
+                <Link className="hover:text-blue-300 transition-all" href={"#portfolio"}>Projects</Link>
+                <Link className="hover:text-blue-300 transition-all" href={"#contact"}>Contact</Link>
             </nav>
         </header>
     )
