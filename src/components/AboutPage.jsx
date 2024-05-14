@@ -19,10 +19,10 @@ export default function AboutPage() {
                     <div className="flex gap-3 items-center">
                         <h1 className="font-semibold text-gray-800">Links | </h1>
                         <Link href={"https://www.linkedin.com/in/armand-oral-a6a749270/"} className="transition-all hover:scale-125">
-                            <LinkedInIcon sizes={30} />
+                            <LinkedInIcon sizes={30} color={"black"} />
                         </Link>
                         <Link href={"https://github.com/Armand2312"} className="transition-all hover:scale-125 hover:text-blue">
-                            <GitHubIcon sizes={30} />
+                            <GitHubIcon sizes={30} color={"black"} />
                         </Link>
 
                     </div>
