@@ -7,7 +7,7 @@ export default function Portfolio() {
 
     return (
 
-        <div className="flex flex-col px-[50px] xl:px-[300px] gap-3 h-full w-full" >
+        <div className="flex flex-col  xl:px-[200px] 2xl:px-[300px] gap-3 h-full w-full mb-8" >
             <div className="flex justify-center items-center">
                 <h1 className="text-lg text-blue-600 font-semibold">MY PROJECTS</h1>
             </div>
@@ -43,7 +43,7 @@ export default function Portfolio() {
                                 <Link href={"https://github.com/Armand2312/Armand2312.github.io"}>
                                     <Button size="lg" color="white">
                                         <div className="flex items-center justify-center gap-1">
-                                            GitHub <GitHubIcon sizes={24} />
+                                            GitHub <GitHubIcon sizes={24} color={"black"}/>
                                         </div>
                                     </Button>
                                 </Link>
@@ -82,7 +82,7 @@ export default function Portfolio() {
                                 <Link href={"/"}>
                                     <Button size="lg" color="white">
                                         <div className="flex items-center justify-center gap-1">
-                                            GitHub <GitHubIcon sizes={24} />
+                                            GitHub <GitHubIcon sizes={24} color={"black"} />
                                         </div>
                                     </Button>
                                 </Link>
@@ -101,39 +101,36 @@ export default function Portfolio() {
                 {/* Third Project */}
                 <div className="relative h-full w-full">
                     <img
-                        src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+                        src="/luca-bravo-9l_326FISzk-unsplash.jpg"
                         alt="image 3"
                         className="h-[600px] w-full object-cover"
                     />
-                    <div className="absolute inset-0 grid h-full w-full items-end bg-black/75">
+                    <div className="absolute inset-0 grid h-full w-full items-end bg-black/50">
                         <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
                             <Typography
                                 variant="h1"
                                 color="white"
                                 className="mb-4 text-3xl md:text-4xl lg:text-5xl"
                             >
-                                The Beauty of Nature
+                                New projects on the way...
                             </Typography>
                             <Typography
                                 variant="lead"
                                 color="white"
                                 className="mb-12 opacity-80"
                             >
-                                It is not so much for its beauty that the forest makes a claim
-                                upon men&apos;s hearts, as for that subtle something, that quality
-                                of air that emanation from old trees, that so wonderfully changes
-                                and renews a weary spirit.
+                                I am working on exciting new projects, check later for updates.
                             </Typography>
 
                             {/* Buttons */}
-                            <div className="flex gap-2">
+                            {/* <div className="flex gap-2">
                                 <Button size="lg" color="white">
                                     Explore
                                 </Button>
                                 <Button size="lg" color="white" variant="text">
                                     Gallery
                                 </Button>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

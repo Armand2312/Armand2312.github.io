@@ -3,7 +3,7 @@ import MyProjectsButton from "./MyProjectsButton";
 export default function Main() {
     return (
         <>
-            <div className="flex md:grid md:grid-cols-[1.3fr_0.8fr] min-h-screen select-none">
+            <div className="flex justify-center md:grid md:grid-cols-[1.3fr_0.8fr] min-h-screen select-none">
                 {/* Intro */}
                 <div className="flex flex-col p-[25px] lg:p-[50px] gap-[50px] justify-center items-center md:mb-[100px] lg:ml-[50px] text-white">
                     <div className="flex flex-col justify-center items-center gap-2 text-center">

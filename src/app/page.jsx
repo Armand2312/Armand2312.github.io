@@ -1,5 +1,6 @@
 import AboutPage from "@/components/AboutPage";
 import CVPage from "@/components/CVPage";
+import Footer from "@/components/Footer";
 import Main from "@/components/Main";
 import Portfolio from "@/components/Portfolio";
 import ParticleContainer from "@/components/particles/ParticleContainer";
@@ -33,8 +34,8 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact">
-
+      <section className=" bg-gray-800" id="contact">
+        <Footer />
       </section>
     </>
 
