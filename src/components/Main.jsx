@@ -6,9 +6,9 @@ export default function Main() {
             <div className="flex md:grid md:grid-cols-[1.3fr_0.8fr] min-h-screen select-none">
                 {/* Intro */}
                 <div className="flex flex-col p-[25px] lg:p-[50px] gap-[50px] justify-center items-center md:mb-[100px] lg:ml-[50px] text-white">
-                    <div className="flex flex-col justify-center items-center gap-2">
+                    <div className="flex flex-col justify-center items-center gap-2 text-center">
                         <h1 className="text-xl md:text-3xl lg:text-4xl font-bold whitespace-nowrap">Front-End Web Developer</h1>
-                        <p className=" text-lg text-center">Hi, I'm Armand Oral. A passionate front-end developer based in Manchester, UK.</p>
+                        <p className=" text-lg text-center justify-center ">Hi, I'm Armand Oral. A front-end developer based in London, UK.</p>
                     </div>
 
                     {/* Button */}
