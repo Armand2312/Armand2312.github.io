@@ -73,7 +73,9 @@ export default function Portfolio() {
                                 color="white"
                                 className="mb-12 opacity-80"
                             >
-                                A simple ecommerce website with add to cart and checkout functionality with an admin panel. Made with mainly Next.js and Tailwind CSS.
+                                A full-stack ecommerce website with add to cart and checkout functionality. 
+                                Includes a separate dashboard with CRUD functionality. 
+                                Made with mainly Next.js and Tailwind CSS.
 
                             </Typography>
 

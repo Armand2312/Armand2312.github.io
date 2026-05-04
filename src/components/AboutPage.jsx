@@ -11,9 +11,9 @@ export default function AboutPage() {
                 {/* Text Area */}
                 <div className="xl:mr-[150px]  flex flex-col gap-3 p-2">
                     <h1 className="text-lg text-blue-600 font-semibold">ABOUT ME</h1>
-                    <h2 className="text-2xl md:text-4xl text-gray-800 font-semibold">Front-End Developer Based In London, UK.</h2>
-                    <p className="text-gray-500 text-justify">Hi I&apos;m Armand, I am a junior front-end developer living in London. I am a Computer Science graduate from the University of Surrey.</p>
-                    <p className="text-gray-500 text-justify">Currently, I&apos;m focused on using React/Next.js along with Tailwind CSS to build modern, user-friendly websites. I&apos;m eager to put my skills to work and collaborate on projects.</p>
+                    <h2 className="text-2xl md:text-4xl text-gray-800 font-semibold">Front-End Developer Based In Kyrenia, Cyprus.</h2>
+                    <p className="text-gray-600 text-justify">Hi I&apos;m Armand, I am a junior front-end developer living in Cyprus. I am a Computer Science graduate from the University of Surrey.</p>
+                    <p className="text-gray-600 text-justify">Currently, I&apos;m focused on using React/Next.js along with Tailwind CSS to build modern, user-friendly websites. I&apos;m eager to put my skills to work and collaborate on projects.</p>
 
                     {/* Socials */}
                     <div className="flex gap-3 items-center">
